@@ -3,16 +3,16 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="noteColor_AmareloPastel">#FFFFEEAA</color>
-    <color name="noteColor_RosaPastel">#FFFFCCCC</color>
-    <color name="noteColor_VerdePastel">#FFFFE6CC</color>
-    <color name="noteColor_LaranjaPastel">#FFFFEEDD</color>
-    <color name="noteColor_AzulPastel">#FFFFF5E6</color>
-    <color name="noteColor_LilasPastel">#FFFFFAED</color>
-    <color name="noteColor_PessegoPastel">#FFFFF0CC</color>
-    <color name="noteColor_CremePastel">#FFFFF5CC</color>
-    <color name="noteColor_MentaPastel">#FFFFFAE6</color>
-    <color name="noteColor_AzulCelestePastel">#FFFFF5FF</color>
+    <color name="noteColor_AmareloPastel">#FFECB3</color>
+    <color name="noteColor_RosaPastel">#F8BBD0</color>
+    <color name="noteColor_VerdePastel">#C8E6C9</color>
+    <color name="noteColor_LaranjaPastel">#FFE0B2</color>
+    <color name="noteColor_AzulPastel">#B3E5FC</color>
+    <color name="noteColor_LilasPastel">#E1BEE7</color>
+    <color name="noteColor_PessegoPastel">#FFCCBC</color>
+    <color name="noteColor_CremePastel">#FFCDD2</color>
+    <color name="noteColor_MentaPastel">#B2DFDB</color>
+    <color name="noteColor_AzulCelestePastel">#B2EBF2</color>
 
 
 </resources>
