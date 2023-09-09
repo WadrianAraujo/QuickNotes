@@ -11,10 +11,10 @@ import com.weadrix.quicknotes.Models.Note
 import com.weadrix.quicknotes.R
 import kotlin.random.Random
 
-class NotesAdapter(private val context: Context, val listener : NotesClickListener) : RecyclerView.Adapter<NotesAdapter.NoteViewHolder> {
+class NotesAdapter(private val context: Context, val listener : NotesClickListener) : RecyclerView.Adapter<NotesAdapter.NoteViewHolder>() {
 
-    private val notesList : ArrayList<Note>()
-    private val fullList : ArrayList<Note>()
+    private val notesList = ArrayList<Note>()
+    private val fullList = ArrayList<Note>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NoteViewHolder {
         return NoteViewHolder(
@@ -67,6 +67,8 @@ class NotesAdapter(private val context: Context, val listener : NotesClickListen
                 notesList.add(item)
             }
         }
+
+        notifyDataSetChanged()
     }
 
     fun randomColor() : Int {
