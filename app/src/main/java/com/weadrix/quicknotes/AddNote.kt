@@ -61,7 +61,7 @@ class AddNote : AppCompatActivity() {
         }
 
         binding.imgBackArrow.setOnClickListener {
-
+            onBackPressed()
         }
     }
 }
