@@ -7,17 +7,15 @@ import android.os.Bundle
 import android.widget.Toast
 import com.weadrix.quicknotes.Models.Note
 import com.weadrix.quicknotes.databinding.ActivityAddNoteBinding
-import com.weadrix.quicknotes.databinding.ActivityMainBinding
 import java.text.SimpleDateFormat
 import java.util.Date
-import java.util.logging.SimpleFormatter
 
 class AddNote : AppCompatActivity() {
     private lateinit var binding : ActivityAddNoteBinding
 
     private lateinit var note : Note
     private lateinit var oldNote : Note
-    var isUpdate = false
+    private var isUpdate = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
